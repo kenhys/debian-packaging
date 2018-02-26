@@ -40,4 +40,4 @@ format = "plain"
 [mapping]
 ubuntu = "http://archive.ubuntu.com/ubuntu"
 security = "http://security.ubuntu.com/ubuntu"
-debian = "https://deb.debian.org/debian"
+debian = "https://ftp.jp.debian.org/debian"
