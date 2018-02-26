@@ -7,3 +7,6 @@ all:
 
 image:
 	docker build -t sidja .
+
+tmpfs:
+	sudo mount -t tmpfs -o size=2g tmpfs /var/cache/pbuilder/build
