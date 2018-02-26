@@ -1,0 +1,36 @@
+[mentors]
+fqdn = mentors.debian.net
+incoming = /upload
+method = http
+allow_unsigned_uploads = 0
+progress_indicator = 2
+# Allow uploads for UNRELEASED packages
+allowed_distributions = .*
+
+[groonga-ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~groonga/ppa/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[groonga-nightly]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~groonga/nightly/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[cutter-ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~cutter-testing-framework/ppa/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[cutter-nightly]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~cutter-testing-framework/nightly/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
