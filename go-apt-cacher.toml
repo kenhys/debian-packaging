@@ -12,12 +12,12 @@ cache_period = 3
 
 # Directory for meta data files.
 # The directory owner must be the same as the process owner of go-apt-cacher.
-meta_dir = "${HOME}/.cache/go-apt-cacher/meta"
+meta_dir = "/home/kenhys/.cache/go-apt-cacher/meta"
 
 # Directory for non-meta data files.
 # This directory must be different from meta_dir.
 # The directory owner must be the same as the process owner of go-apt-cacher.
-cache_dir = "${HOME}/.cache/go-apt-cacher/cache"
+cache_dir = "/home/kenhys/.cache/go-apt-cacher/cache"
 
 # Capacity for cache_dir.
 # Default: 1 GiB
