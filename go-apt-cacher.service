@@ -1,0 +1,10 @@
+[Unit]
+Description=Go Apt Cacher
+
+[Service]
+ExecStart=%h/.local/bin/go-apt-cacher -f %h/.local/etc/go-apt-cacher.toml
+ExecStop=/bin/kill ${MAINPID}
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
