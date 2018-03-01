@@ -1,0 +1,6 @@
+Acquire::http::Proxy "http://127.0.0.1:3142/";
+
+Acquire::https {
+  Proxy::dl.google.com "DIRECT";
+};
+
