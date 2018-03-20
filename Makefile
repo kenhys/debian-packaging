@@ -12,4 +12,4 @@ tmpfs:
 	sudo mount -t tmpfs -o size=2g tmpfs /var/cache/pbuilder/build
 
 acng:
-	/usr/sbin/apt-cacher-ng SocketPath=socket -c etc/apt-cacher-ng ForeGround=1
+	/usr/sbin/apt-cacher-ng -c etc/apt-cacher-ng ForeGround=1
