@@ -9,7 +9,7 @@ image:
 	docker build -t sidja .
 
 tmpfs:
-	sudo mount -t tmpfs -o size=2g tmpfs /var/cache/pbuilder/build
+	sudo mount -t tmpfs -o size=4g tmpfs /var/cache/pbuilder/build
 
 acng:
 	/usr/sbin/apt-cacher-ng -c etc/apt-cacher-ng ForeGround=1
