@@ -1,4 +1,6 @@
 all:
+
+goapt:
 	mkdir -p $(HOME)/.local/etc
 	cp -f go-apt-cacher.toml $(HOME)/.local/etc/
 	mkdir -p $(HOME)/.config/systemd/user/
