@@ -1,4 +1,4 @@
-all:
+all: tmpfs
 
 goapt:
 	mkdir -p $(HOME)/.local/etc
